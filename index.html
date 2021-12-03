@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Try Room</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-md-6">
+            <button id="Carbon">Carbon</button>
+        <button id="CarbonNormal">Carbon Normal</button>
+        <button id="Change">Black</button>
+        
+        </div>
+        <div class="col-md-6">
+            <div>
+                <label for="x-slider">X Slider</label>
+                <input type="range" step="0.5" id="x-slider" min="0.5" max="5">
+            </div>
+            <div>
+                <label for="y-slider">Y Slider</label>
+                <input type="range" id="y-slider" step="0.5" min="0.5" max="5">
+            </div>
+            <div>
+                    <label for="z-slider">Z Slider</label>
+                <input type="range" id="z-slider" step="0.5"  min="0.5" max="5">
+            </div>
+        </div>
+        <!-- <button id="size-small">Small</button> -->
+        <!-- <button id="size-medium">Medium</button> -->
+        <!-- <button id="size-large">Large</button> -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.129.0/build/three.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+canvas{
+    display: block;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 10px;
+}
